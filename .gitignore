@@ -2,3 +2,4 @@
 webhook.json
 node_modules
 .node-version
+.env.yaml

@@ -6,7 +6,7 @@ backlog連携アプリ
 
 # How to deploy
 
-`gcloud beta functions deploy bl2sl --trigger-http`
+`gcloud beta functions deploy bl2sl --runtime nodejs8 --env-vars-file .env.yaml --trigger-http`
 
 https://cloud.google.com/functions/docs/quickstart?hl=ja
 
